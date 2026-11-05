@@ -14,6 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
         btn.textContent = "+";
         btn.style.color = "white";
         btn.style.float = "right";
+        btn.style.width = "10%";
+        btn.style.height = "10%";
         p.appendChild(btn);
         const image = document.createElement("img");
         image.src = pro.thumbnail;
